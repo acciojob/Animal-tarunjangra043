@@ -1,1 +1,34 @@
-/*  your css code here. If applicable */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+#animal-photos {
+  width: fit-content;
+  background-color: grey;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#photo-heading {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.image {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: fit-content;
+}
+.image img {
+  border-radius: 20px;
+}
